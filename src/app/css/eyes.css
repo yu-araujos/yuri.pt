@@ -1,0 +1,51 @@
+.eyes {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.eyes .eyebrow_container {
+  display: flex;
+  gap: 50px;
+}
+
+.eyes .eyebrow_container .eye_brow {
+  width: 90px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: #000;
+}
+
+.eyes .eye_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.eyes .eye_container .eye {
+  position: relative;
+  display: inline-block;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  background: #fff;
+  transition: transform 0.5s, background-color 0.5s, box-shadow 0.5s;
+}
+
+.eyes .eye_container .eye::after {
+  content: " ";
+  position: absolute;
+  bottom: 5%;
+  right: 50%;
+  width: 15px;
+  height: 15px;
+  background: #000;
+  border-radius: 50%;
+  border: 20px solid #45443f;
+  pointer-events: none;
+  transition: 0.5s;
+}
