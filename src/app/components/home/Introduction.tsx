@@ -5,7 +5,7 @@ import profile from '../../images/me.png';
 
 const Introduction: React.FC = () => {
   return (
-    <div className="flex flex-col justify-center bg-black bg-opacity-10 w-full p-3 md:p-6 lg:mb-6 border-b-[1px] border-opacity-90 border-gray-700">
+    <div className="flex flex-col justify-center bg-black bg-opacity-10 w-full h-full p-3 md:p-6 lg:mb-6 border-b-[1px] border-opacity-90 border-gray-700">
       <div className='flex justify-center mb-3'>
         <Image
           src={profile} 
