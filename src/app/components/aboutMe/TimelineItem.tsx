@@ -10,7 +10,7 @@ interface TimelineItemProps {
   endYear: string;
 }
 
-const TimelineItem: React.FC<TimelineItemProps> = ({ title, description, topics, year, company, startYear, endYear }) => {
+const TimelineItem: React.FC<TimelineItemProps> = ({ title, description, topics, company, startYear, endYear }) => {
   return (
     <div className="relative flex items-start">
       <div className="hidden lg:block absolute -left-10 top-2 w-2 h-2 bg-purple-500 rounded-full"></div>

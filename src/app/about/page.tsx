@@ -1,5 +1,4 @@
 import AboutSection from '../components/aboutMe/AboutSection';
-import HomeSection from '../components/home/HomeSection';
 import MainContainer from '../components/mainContainer';
 import Sidebar from '../components/Sidebar';
 
