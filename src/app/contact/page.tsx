@@ -3,12 +3,17 @@ import Sidebar from '../components/Sidebar';
 
 export default function Contact() {
   return (
-    <div>
-      <section>
-        <MainContainer gradient='from-green-500 to-green-700'>
+
+    <MainContainer gradient='from-green-500 to-green-700'>
+      <div className="flex w-full h-full">
+        <div>
           <Sidebar />
-        </MainContainer>
-      </section>
-    </div>
+        </div>
+
+        <div className="h-full overflow-y-auto">
+          <p>Contact page</p>
+        </div>
+      </div>
+    </MainContainer>
   );
 }

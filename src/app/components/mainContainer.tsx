@@ -10,7 +10,7 @@ const MainContainer: React.FC<ContainerProps> = ({ children, gradient }) => {
   return (
     <div className={`flex flex-col justify-center items-center min-h-screen bg-gradient-to-br ${gradient} p-4`}>
       <TopBar />
-      <div className="flex flex-grow justify-center items-center w-full md:w-11/12 bg-black bg-opacity-60 h-[80vh]">
+      <div className="flex flex-grow justify-center items-center w-full md:w-11/12 bg-black bg-opacity-60 h-[70vh]">
         {children}
       </div>
     </div>

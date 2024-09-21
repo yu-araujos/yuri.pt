@@ -1,4 +1,4 @@
-import MainSection from './components/home/MainSection';
+import HomeSection from './components/home/HomeSection';
 import MainContainer from './components/mainContainer';
 import Sidebar from './components/Sidebar';
 
@@ -11,7 +11,7 @@ export default function Home() {
         </div>
 
         <div className="h-full overflow-y-auto">
-          <MainSection />
+          <HomeSection />
         </div>
       </div>
     </MainContainer>

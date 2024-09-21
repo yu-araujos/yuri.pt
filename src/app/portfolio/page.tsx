@@ -3,12 +3,16 @@ import Sidebar from '../components/Sidebar';
 
 export default function Portfolio() {
   return (
-    <div>
-      <section>
-        <MainContainer gradient='from-yellow-600 to-orange-500'>
+    <MainContainer gradient='from-yellow-500 to-orange-400'>
+      <div className="flex w-full h-full">
+        <div>
           <Sidebar />
-        </MainContainer>
-      </section>
-    </div>
+        </div>
+
+        <div className="h-full overflow-y-auto">
+          <p>Portfolio page</p>
+        </div>
+      </div>
+    </MainContainer>
   );
 }
