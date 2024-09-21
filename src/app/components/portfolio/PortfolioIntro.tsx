@@ -1,6 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
-import profile from '../../images/me.png';
 
 const PortfolioIntro: React.FC = () => {
   return (
