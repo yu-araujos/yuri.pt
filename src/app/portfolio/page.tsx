@@ -1,4 +1,5 @@
 import MainContainer from '../components/mainContainer';
+import PortfolioSection from '../components/portfolio/PortfolioSection';
 import Sidebar from '../components/Sidebar';
 
 export default function Portfolio() {
@@ -10,7 +11,7 @@ export default function Portfolio() {
         </div>
 
         <div className="h-full overflow-y-auto">
-          <p>Portfolio page</p>
+          <PortfolioSection/>
         </div>
       </div>
     </MainContainer>

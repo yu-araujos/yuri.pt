@@ -4,7 +4,6 @@ import TimelineItem from './TimelineItem';
 const AboutContent: React.FC = () => {
   return (
     <div className="space-y-24 p-6 text-white">
-      {/* Seção 1: Descrição */}
       <div className="flex flex-col lg:flex-row lg:items-start space-y-6 lg:space-y-0 lg:space-x-12">
         <h2 className="text-xl font-bold lg:w-1/4">✨ The Drive, Passion, and Vision Behind My Work</h2>
         <p className="text-sm text-gray-400 lg:w-3/4">

@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 interface CardLinkProps {
   title: string;
-  description: string;
+  description?: string;
   emoji: string;
   href: string;
   gradient: string;

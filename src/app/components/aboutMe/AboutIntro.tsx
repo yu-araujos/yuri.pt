@@ -4,7 +4,7 @@ import profile from '../../images/me.png';
 
 const AboutIntro: React.FC = () => {
   return (
-    <div className="flex items-center justify-between bg-black bg-opacity-30 w-full p-12">
+    <div className="flex items-center justify-between bg-black bg-opacity-0 w-full p-12">
       <div className="mb-6 lg:mb-0 lg:w-1/2 space-y-4">
         <div className="inline-block border-[1px] border-purple-500 text-purple-500 px-3 py-1 rounded-full text-sm mb-2">
           About Me

@@ -32,15 +32,14 @@ const HomeSection: React.FC = () => {
           description="Lorem ipsum dolor sit amet."
           emoji="💬"
           href="/contact"
-          gradient="bg-gradient-to-r from-green-600 to-green-400"
+          gradient="bg-gradient-to-r from-green-400 to-green-600"
         />
 
         <CardLink
           title="Soon"
-          description="Lorem ipsum dolor sit amet."
           emoji="👀"
           href="/"
-          gradient="bg-gradient-to-r from-blue-600 to-blue-400"
+          gradient="bg-gradient-to-r from-blue-500 to-blue-600"
         />
 
 

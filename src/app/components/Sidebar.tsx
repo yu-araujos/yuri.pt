@@ -5,7 +5,7 @@ import Profile from './Profile';
 
 const Sidebar: React.FC = () => {
   return (
-    <div className="hidden lg:flex flex-col justify-between h-full rounded-bl-xl w-72 bg-black bg-opacity-30 border-r-[1px] border-opacity-90 border-gray-700">
+    <div className="hidden lg:flex flex-col justify-between h-full rounded-bl-xl w-72 bg-black bg-opacity-50 border-r-[1px] border-opacity-90 border-gray-700">
       <div className="space-y-6">
         <div className="flex flex-col border-b-[1px] border-opacity-90 border-gray-700 p-6">
           <div className="w-full h-full my-4">
@@ -20,14 +20,15 @@ const Sidebar: React.FC = () => {
         <nav className="flex flex-col space-y-4 px-6 text-sm">
           <Link href="/about" className="text-white hover:text-gray-300">About me</Link>
           <Link href="/portfolio" className="text-white hover:text-gray-300">Portfolio</Link>
-          <Link href="/contact" className="text-white hover:text-gray-300">Contact</Link>
         </nav>
       </div>
       
       <div className="p-6 border-t-[1px] border-opacity-90 border-gray-700">
-        <button className="w-full py-2 bg-black bg-opacity-20 text-gray-500 font-medium rounded-lg flex items-center justify-center hover:bg-gray-700">
-          Let's Connect <span className="ml-2">↗</span>
-        </button>
+        <Link href="/contact">
+          <button className="w-full py-2 bg-gray-400 bg-opacity-20 text-gray-400 font-medium rounded-lg flex items-center justify-center hover:bg-gray-700">
+            Let's Connect <span className="ml-2">↗</span>
+          </button>
+        </Link>
       </div>
     </div>
   );
