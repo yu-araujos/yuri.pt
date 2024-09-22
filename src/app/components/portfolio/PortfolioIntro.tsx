@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from 'next/image';
 import React from 'react';
 import memoji4 from '../../images/me-4.png';
@@ -11,7 +12,7 @@ const PortfolioIntro: React.FC = () => {
           Portfolio
         </div>
         <h1 className="text-4xl font-bold text-white">
-          A Gallery of Projects <br/> I’m Proud Of
+          A Gallery of Projects <br/> I'm Proud Of
         </h1>
         <p className="text-sm text-gray-300">
         Explore a collection of projects I'm proud to have built. Each one features a mix of creativity, dedication, bugs, errors in non-existent lines, and most importantly, the satisfaction of finally creating something that works well.
