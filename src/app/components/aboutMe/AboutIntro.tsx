@@ -1,6 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
-import profile from '../../images/me.png';
+import memoji1 from '../../images/me.png';
+import memoji2 from '../../images/me-2.png';
+import memoji3 from '../../images/me-3.png';
 
 const AboutIntro: React.FC = () => {
   return (
@@ -9,7 +11,7 @@ const AboutIntro: React.FC = () => {
         <div className="inline-block border-[1px] border-purple-500 text-purple-500 px-3 py-1 rounded-full text-sm mb-2">
           About Me
         </div>
-        <h1 className="text-2xl font-bold text-white">
+        <h1 className="text-4xl font-bold text-white">
           Inside My World – <br /> The Story Behind Work
         </h1>
         <p className="text-sm text-gray-400">
@@ -18,28 +20,28 @@ const AboutIntro: React.FC = () => {
       </div>
 
       <div className=" hidden relative md:flex w-full lg:w-auto justify-center lg:justify-end items-center">
-        <div className="absolute w-24 h-24 lg:w-32 lg:h-32 rounded-full overflow-hidden bg-purple-500 z-30 transform xl:-translate-x-56">
+        <div className="absolute w-24 h-24 rounded-full overflow-hidden bg-purple-500 z-30 transform xl:-translate-x-48">
           <Image
-            src={profile}
-            alt="Image 1"
+            src={memoji2}
+            alt="Yuri Silva - memoji"
             layout="fill"
             objectFit="cover"
           />
         </div>
 
-        <div className="absolute w-24 h-24 lg:w-32 lg:h-32 rounded-full overflow-hidden bg-purple-500 bg-opacity-50 z-20 transform  xl:-translate-x-28">
+        <div className="absolute w-24 h-24 rounded-full overflow-hidden bg-purple-500 bg-opacity-50 z-20 transform  xl:-translate-x-28">
           <Image
-            src={profile}
-            alt="Image 2"
+            src={memoji1}
+            alt="Yuri Silva - memoji"
             layout="fill"
             objectFit="cover"
           />
         </div>
 
-        <div className="absolute w-24 h-24 lg:w-32 lg:h-32 rounded-full overflow-hidden bg-purple-500 bg-opacity-15 z-10 transform xl:-translate-x-0">
+        <div className="absolute w-24 h-24 rounded-full overflow-hidden bg-purple-500 bg-opacity-15 z-10 transform xl:-translate-x-10">
           <Image
-            src={profile}
-            alt="Image 3"
+            src={memoji3}
+            alt="Yuri Silva - memoji"
             layout="fill"
             objectFit="cover"
           />

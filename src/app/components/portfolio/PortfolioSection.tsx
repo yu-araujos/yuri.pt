@@ -2,7 +2,8 @@
 import React from 'react';
 import Footer from '../footer';
 import PortfolioIntro from './PortfolioIntro';
-import PortfolioContent from './PortfolioContent';
+import Soon from './soon';
+// import PortfolioContent from './PortfolioContent';
 
 const PortfolioSection: React.FC = () => {
   return (
@@ -10,8 +11,9 @@ const PortfolioSection: React.FC = () => {
       <div className='w-full'>
         <PortfolioIntro />
       </div>
-      <div className="p-6  bg-black bg-opacity-30">
-        <PortfolioContent/>
+      <div className="bg-black bg-opacity-30 w-full h-full">
+        {/* <PortfolioContent/> */}
+        <Soon/>
       </div>
       <Footer />
     </div>

@@ -10,7 +10,7 @@ export default function Home() {
           <Sidebar />
         </div>
 
-        <div className="h-full overflow-y-auto">
+        <div className="w-full h-full overflow-y-auto">
           <HomeSection />
         </div>
       </div>
