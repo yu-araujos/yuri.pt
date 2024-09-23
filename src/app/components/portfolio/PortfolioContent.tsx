@@ -20,7 +20,6 @@ const projects = [
     imageSrc: '',
     link: '/portfolio/adzen',
   },
-  // Adicione mais projetos conforme necessário
 ];
 
 const PortfolioContent = () => {

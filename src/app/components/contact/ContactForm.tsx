@@ -43,7 +43,6 @@ const ContactForm: React.FC = () => {
     setIsSubmitting(true);
 
     try {
-      // Verifica o token do reCAPTCHA no backend
       const verifyResponse = await fetch('/api/verify-recaptcha', {
         method: 'POST',
         headers: {
