@@ -1,7 +1,17 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import type { NextApiRequest, NextApiResponse } from 'next';
+import fetch from 'node-fetch';
 
 const RECAPTCHA_SECRET_KEY = process.env.RECAPTCHA_SECRET_KEY || '6Lcn30wqAAAAAAlFEuLPYStReLub2zecdYRdkNCN';
+
+interface ReCAPTCHAResponse {
+  success: boolean;
+  challenge_ts: string;
+  hostname: string;
+  score?: number;
+  action?: string;
+  ['error-codes']?: string[];
+}
 
 export default async function verifyReCAPTCHA(req: NextApiRequest, res: NextApiResponse) {
   if (req.method === 'POST') {
@@ -14,7 +24,7 @@ export default async function verifyReCAPTCHA(req: NextApiRequest, res: NextApiR
         method: 'POST',
       });
 
-      const data = await response.json();
+      const data = await response.json() as ReCAPTCHAResponse;
 
       if (data.success) {
         res.status(200).json({ success: true });
