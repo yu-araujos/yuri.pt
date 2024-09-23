@@ -13,8 +13,8 @@ const HomeSection: React.FC = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 w-full p-6 lg:q estrah-96 h-full">
         <CardLink
           title="About me"
-          description="Lorem ipsum dolor sit amet."
-          emoji="🙋‍♂️"
+          description="A Peek Into My Life"
+          emoji="🧙‍♂️"
           href="/about"
           gradient="bg-gradient-to-r from-purple-500 to-purple-700"
           ballColor="bg-purple-400"
@@ -23,7 +23,7 @@ const HomeSection: React.FC = () => {
 
         <CardLink
           title="Portfolio"
-          description="Lorem ipsum dolor sit amet."
+          description="A Collection Of Projects That I Love"
           emoji="💼"
           href="/portfolio"
           gradient="bg-gradient-to-r from-yellow-500 to-orange-400"
@@ -32,7 +32,7 @@ const HomeSection: React.FC = () => {
         />
         <CardLink
           title="Let's Connect"
-          description="Lorem ipsum dolor sit amet."
+          description="Let's Know Each Other"
           emoji="💬"
           href="/contact"
           gradient="bg-gradient-to-r from-green-500 to-green-700"

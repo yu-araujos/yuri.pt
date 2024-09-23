@@ -20,7 +20,7 @@ const CardLink: React.FC<CardLinkProps> = ({ title, description, emoji, href, gr
         
         <div className="relative z-10">
           <h3 className="text-2xl">{title}</h3>
-          <p className={`text-sm mt-1`}>{description}</p>
+          <p className={`text-md mt-1`}>{description}</p>
         </div>
 
         <div className="relative z-10 mt-8">

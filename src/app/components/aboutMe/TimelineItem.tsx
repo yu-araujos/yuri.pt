@@ -4,7 +4,6 @@ interface TimelineItemProps {
   title: string;
   description: string;
   topics: string[];
-  year: string;
   company: string;
   startYear: string;
   endYear: string;

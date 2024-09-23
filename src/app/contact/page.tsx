@@ -1,3 +1,4 @@
+import ContactSection from '../components/contact/contactSection';
 import MainContainer from '../components/mainContainer';
 import Sidebar from '../components/Sidebar';
 
@@ -11,7 +12,7 @@ export default function Contact() {
         </div>
 
         <div className="h-full overflow-y-auto">
-          <p>Contact page</p>
+          <ContactSection/>
         </div>
       </div>
     </MainContainer>
